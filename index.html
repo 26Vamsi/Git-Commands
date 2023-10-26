@@ -132,5 +132,33 @@
       <li><span>git pull origin main</span></li>
     </ul>
     <hr />
+
+    <h3>Git Log</h3>
+    <p>Shows all commits</p>
+    <ul>
+      <li><span>git log</span></li>
+    </ul>
+    <hr />
+
+    <h3>Fixing Mistakes</h3>
+    <h2>case-1 : staged changes</h2>
+    <p>Added unnecessary changes (to undo changes)</p>
+    <ul>
+      <li><span>git reset ---file_name---</span></li>
+      <li><span>git reset</span></li>
+    </ul>
+
+    <h2>case-2</h2>
+    <p>Commited changes (for one commit undo)</p>
+    <ul>
+      <li><span>git reset HEAD~1</span></li>
+    </ul>
+
+    <h2>case-3</h2>
+    <p>Commited changes (for many commit undo)</p>
+    <ul>
+      <li><span>git reset ---commit_hash---</span></li>
+      <li><span>git reset --hard ---commit_hash---</span></li>
+    </ul>
   </body>
 </html>
