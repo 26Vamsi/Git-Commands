@@ -62,4 +62,19 @@
 
   merge conflicts can occur if multiple people try to make changes to the same file, and then collaborate
 
+### git config
+-  `git config --global user.name "<name>"`
+-  `git config --global user.email "<email>"`
+-  `git config --list`
+
+### Git Clone
+- `git clone <link>`
+
+### Git add
+- `git add .`
+- `git add <file_Nmae`
+
+### Git status 
+- `git status`
+
   -This was made by Vamsi..
