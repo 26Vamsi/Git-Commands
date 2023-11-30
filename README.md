@@ -62,7 +62,7 @@
 
   merge conflicts can occur if multiple people try to make changes to the same file, and then collaborate
 
-### git config
+### Git config
 -  `git config --global user.name "<name>"`
 -  `git config --global user.email "<email>"`
 -  `git config --list`
@@ -76,5 +76,32 @@
 
 ### Git status 
 - `git status`
+
+### Git commit
+- `git commit -m "message"`
+- `git commit --amend` -> It lets us to combine staged changes with previous commit instead of creating an entirely new commit. 
+
+### Command to add & commit
+- `git commit -am "message"`
+
+### Git log
+- `git log`
+- `git log --all`
+- `git log --graph`
+- `git log --all --decorate --oneline --graph`
+- `git log --since="yesterday"`
+- `git log --since="1 minute ago"`
+- `git log --since=10.minute`
+- `git log --grep=<word in commit>` -> to match substring
+- `git --no-paper log`
+
+### Git push
+- `git push origin main` -> **origin** is the __name of remote__ server & **main** is the __branch name__
+- `git push -u origin main` -> set to upstream
+- **Main** is the default branch
+
+
+
+
 
   -This was made by Vamsi..
