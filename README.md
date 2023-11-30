@@ -38,7 +38,7 @@
 
 - `git remote rm <name of remote>` : this command deletes a remote connection
 
-- `git remote rename <olanme> <newname>` : this command remanes the remote connection
+- `git remote rename <oldname> <newname>` : this command remanes the remote connection
 
 ### Note: The name of the remote connection is always used to establish communication between the repos
 
@@ -57,7 +57,7 @@
            - git pull
            - git push
 
-- Merge conflicts are a very common scnario
+- Merge conflicts are a very common scenario
 - To resolve merge conflict, we need to open up the conflicting file and choose one option or another.
 
   merge conflicts can occur if multiple people try to make changes to the same file, and then collaborate
