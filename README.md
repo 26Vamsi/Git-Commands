@@ -98,6 +98,8 @@
 ### Git push
 - `git push origin main` -> **origin** is the __name of remote__ server & **main** is the __branch name__
 - `git push -u origin main` -> set to upstream
+
+### Git branch
 - **Main** is the default branch
 
 
