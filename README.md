@@ -106,5 +106,12 @@
 
 ### Git Branch
 - **Main** is the default branch
+- `git branch` --> to check branch & Listing current branches
+-  `git branch -M main` --> to rename main branch
+-  `git branch <branch-name>` --> Making a new branch
+-  `git checkout -b <branch-Name>` --> to create new branch
+-  `git checkout <branch-Name>` --> Switching to a branch
+-  `git push origin <branch-name>` --> Pushing the branch to Git
+-  `git branch -d <branch-name>` --> to delete the branch
 
   -This was made by Vamsi..
