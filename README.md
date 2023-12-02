@@ -102,7 +102,10 @@
 ### Git branch
 - **Main** is the default branch
 
-
+### Git tree
+- `tree .git`
+- To download git tree for windows check the article
+- [dev commity article] (https://dev.to/flyingduck92/add-tree-to-git-bash-on-windows-10-1eb1) 
 
 
 
