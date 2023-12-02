@@ -114,4 +114,8 @@
 -  `git push origin <branch-name>` --> Pushing the branch to Git
 -  `git branch -d <branch-name>` --> to delete the branch
 
+### Merge from branch to main
+- `git diff <branch-name>` --> to compare commits,branches,files & more
+- `git merge <branch-name>` --> to merge to branches
+(https://stackoverflow.com/questions/5601931/how-do-i-safely-merge-a-git-branch-into-master)
   -This was made by Vamsi..
