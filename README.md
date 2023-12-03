@@ -133,8 +133,17 @@
 - ## cat
 - `git cat-file -p <hashid>`
 - `git cat-file -t <hashid>`
+- `git checkout <hashid>`
 - `cat <filename>`
 
+### Tags 
+Tags does not move with new commits
+- `git tag <tagname>` --> Creating a tag
+- `git tag -a v1.4` --> Annotated tags
+- `git tag -a v1.4 -m "my version 1.4"` --> Annotated tags
+- `git tag v1.4-lw` --> Lightweight tags
+- `git tag` --> Listing tags
+- `git tag -d v1` -->  Deleting tags
 
 
   -This was made by Vamsi..
