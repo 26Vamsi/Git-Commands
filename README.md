@@ -122,12 +122,18 @@
 
 ### Some other commands
 - `git reflog`
+- `git switch -`
+- ## git stash
 - `git stash`
 - `git stash apply`
 - `git stash list`
 - `git stash show stash@{0}`
 - `git stash --include-untracked --<file>`
 - `git stash save "added" --include-untracked`
+- ## cat
+- `git cat-file -p <hashid>`
+- `git cat-file -t <hashid>`
+- `cat <filename>`
 
 
 
