@@ -120,5 +120,15 @@
 - perfer this article from stack over flow
 (https://stackoverflow.com/questions/5601931/how-do-i-safely-merge-a-git-branch-into-master)
 
+### Some other commands
+- `git reflog`
+- `git stash`
+- `git stash apply`
+- `git stash list`
+- `git stash show stash@{0}`
+- `git stash --include-untracked --<file>`
+- `git stash save "added" --include-untracked`
+
+
 
   -This was made by Vamsi..
