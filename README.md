@@ -145,5 +145,8 @@ Tags does not move with new commits
 - `git tag` --> Listing tags
 - `git tag -d v1` -->  Deleting tags
 
+### Creating readme file
+- [github-docs-article] (https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) 
+
 
   -This was made by Vamsi..
